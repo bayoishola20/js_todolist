@@ -1,5 +1,5 @@
 # To-do list
 
-###Javascript
-### HTML
-### CSS
+#### Javascript
+#### HTML
+#### CSS
