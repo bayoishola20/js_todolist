@@ -87,7 +87,9 @@ Inspired by:
 	border: none;
 	margin : 3px;
 	color : lightseagreen;
-	float: right;
+	position: relative;
+	right: 5px;
+	/*float: right;*/
 	}
 
 	#hourglass {
