@@ -1,0 +1,64 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <meta name="description" content="A simple To-Do list">
+        <meta name="author" content="bayoishola20">
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/icon.ico">
+
+        <title>To-Do List</title>
+
+    </head>
+
+    <body>
+
+                <div id="main-container">
+
+                                        <!--Application overview-->
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <!-- <i class="fa fa-calendar fa-3x" aria-hidden="true"></i> -->
+                            <i class="fa" id="hourglass" aria-hidden="true"></i>
+                            <h1>To-Do</h1>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <input type="text" id="inputArea" value=""> 
+                                    <button type="button" class="btn btn-success" onclick="insert()" id="addButton">Insert</button>
+                                    <button type="button" class="btn btn-danger" onclick="clearItems()" id="clearButton">Clear</button>
+                                </div>
+
+                                <div class="col-md-12" id="listItems">
+                                    <ul id="myUl"> </ul>
+                                </div> 
+                            </div>
+
+                            <br>
+
+                        </div>
+                    </div>
+                
+                </div>
+
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script src="js/tether.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+    </body>
+
+    </html>
